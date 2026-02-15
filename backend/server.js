@@ -1,4 +1,4 @@
 const server= async () => {
-    console.log("server is running");
+    console.log("server is running..");
 };
 server();
