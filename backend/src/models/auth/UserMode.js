@@ -18,6 +18,10 @@ const userSchema = new mongoose.Schema({
         type: String,   
         default: 'https://res.cloudinary.com/dzj6dhn0n/image/upload/v1702050867/default-avatar_ajlq8h.png',
     },
+    bio :{
+        type: String,
+        default : 'I am a new user.',
+    },
     role: {
         type: String,
         enum: ['user', 'admin','creator'],
